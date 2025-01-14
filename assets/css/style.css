@@ -7,7 +7,7 @@
     --toboo-editorial: #45abea;
     --toboo-q1goals: #9c72e4;
     --toboo-recruiting: #64c0a9;
-    --toboo-mobile: #64c0a9;
+    --toboo-mobile: #f29e33;
     --toboo-website: #d863a1;
     --toboo-sales: #b0c926;
     --toboo-crosscol: #ea463b;
@@ -86,27 +86,79 @@ main {
 }
 
 .list_text {
-    font-weight: normal;
+    line-height: 2rem;
 }
 
 .editorial {
-    background-color: var(--toboo-selected);
+    background-color: var(--toboo-editorial);
     color: white;
-    border-radius: 0.25rem;
+    font-size: 9px;
+    border-radius: 1rem;
     padding: 7px 9px;
     margin-right: 0.25rem;
 }
 
 .tick {
+    font-size: 10px;
     color: var(--toboo-tickcol);
-    border-color: var(--toboo-tickcol);
+    padding: 1px 2.5px;
+    border: 2px solid var(--toboo-tickcol);
+    border-radius: 100%;
 }
 
 .cross {
+    font-size: 10px;
     color: var(--toboo-crosscol);
-    border-color: var(--toboo-crosscol);
+    padding: 1px 2.5px;
+    border: 2px solid var(--toboo-crosscol);
+    border-radius: 100%;
 }
 
 .fix_4_block {
     padding-top: 1rem;
+}
+
+.q1goals {
+    background-color: var(--toboo-q1goals);
+    color: white;
+    font-size: 9px;
+    border-radius: 1rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
+}
+
+.recruit {
+    background-color: var(--toboo-recruiting);
+    color: white;
+    font-size: 9px;
+    border-radius: 1rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
+}
+
+.mobile {
+    background-color: var(--toboo-mobile);
+    color: white;
+    font-size: 9px;
+    border-radius: 1rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
+}
+
+.toboo_tag_website {
+    background-color: var(--toboo-website);
+    color: white;
+    font-size: 9px;
+    border-radius: 1rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
+}
+
+.sales {
+    background-color: var(--toboo-sales);
+    color: white;
+    font-size: 9px;
+    border-radius: 1rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
 }
