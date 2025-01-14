@@ -1,0 +1,15 @@
+:root {
+    --toboo-selected: #47adf1;
+    --toboo-unselected: #c9ced3;
+    --toboo-bg-alt: #f6f8f9;
+    --toboo-title: #444851;
+    --toboo-text: #53575f;
+    --toboo-editorial: #45abea;
+    --toboo-q1goals: #9c72e4;
+    --toboo-recruiting: #64c0a9;
+    --toboo-mobile: #64c0a9;
+    --toboo-website: #d863a1;
+    --toboo-sales: #b0c926;
+    --toboo-crosscol: #ea463b;
+    --toboo-tickcol: #6bc3ae;
+}
