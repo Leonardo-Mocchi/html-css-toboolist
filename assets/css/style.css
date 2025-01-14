@@ -13,3 +13,12 @@
     --toboo-crosscol: #ea463b;
     --toboo-tickcol: #6bc3ae;
 }
+
+#logo {
+    ;
+}
+
+#site_header {
+    /* background-image: url(../img/Logo.png); */
+    background-size: 300px;
+}
