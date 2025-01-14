@@ -48,7 +48,6 @@ main {
 
 #button_sect {
     padding: 1rem 3.25rem;
-    margin: auto;
     border-radius: 700rem;
 }
 
@@ -65,4 +64,14 @@ main {
     border: 2px solid var(--toboo-unselected);
     border-radius: 0.25rem;
     padding: 6px 8px;
+}
+
+.module_spacing {
+    background-color: var(--toboo-bg-alt);
+    height: 3px;
+}
+
+#task_sect {
+    margin-top: 0.5rem;
+    mar
 }
