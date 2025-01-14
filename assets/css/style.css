@@ -44,11 +44,14 @@ main {
     font-family: unset;
     margin: 2.5rem 10.5rem 0rem 10.5rem;
     background-color: white;
+    border-radius: 0.25rem;
+    color: var(--toboo-title);
 }
 
 #button_sect {
     padding: 1rem 3.25rem;
-    border-radius: 700rem;
+    border: 100px;
+    border-radius: 0.25rem;
 }
 
 #ntask {
@@ -72,6 +75,38 @@ main {
 }
 
 #task_sect {
-    margin-top: 0.5rem;
-    mar
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 1rem 3.25rem;
+}
+
+.drop_down_arrow {
+    font-size: 25px;
+    vertical-align: top;
+}
+
+.list_text {
+    font-weight: normal;
+}
+
+.editorial {
+    background-color: var(--toboo-selected);
+    color: white;
+    border-radius: 0.25rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
+}
+
+.tick {
+    color: var(--toboo-tickcol);
+    border-color: var(--toboo-tickcol);
+}
+
+.cross {
+    color: var(--toboo-crosscol);
+    border-color: var(--toboo-crosscol);
+}
+
+.fix_4_block {
+    padding-top: 1rem;
 }
