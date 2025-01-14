@@ -35,9 +35,34 @@ header {
 
 body {
     background-color: var(--toboo-bg-alt);
+    font-size: 13px;
+    font-weight: bold;
 }
 
 
 main {
+    font-family: unset;
+    margin: 2.5rem 10.5rem 0rem 10.5rem;
     background-color: white;
+}
+
+#button_sect {
+    padding: 1rem 3.25rem;
+    margin: auto;
+    border-radius: 700rem;
+}
+
+#ntask {
+    background-color: var(--toboo-selected);
+    color: white;
+    border-radius: 0.25rem;
+    padding: 7px 9px;
+    margin-right: 0.25rem;
+}
+
+#add_section {
+    color: var(--toboo-unselected);
+    border: 2px solid var(--toboo-unselected);
+    border-radius: 0.25rem;
+    padding: 6px 8px;
 }
