@@ -57,7 +57,8 @@ main {
     background-color: var(--toboo-selected);
     color: white;
     border-radius: 0.25rem;
-    padding: 7px 9px;
+    padding: 6px 8px;
+    border: 2px solid var(--toboo-selected);
     margin-right: 0.25rem;
 }
 
